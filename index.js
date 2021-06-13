@@ -6,6 +6,7 @@ class Circle {
   constructor( radius ) {
     this.radius = radius;
   }
+
 set diameter( diameter ) {
     this.radius = diameter / 2
   }
