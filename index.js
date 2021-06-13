@@ -22,12 +22,12 @@ class Circle {
   get circumference() {
     return ( this.radius * 2 ) * pi
   }
-
+  set area( area ) {
+      this.radius = Math.sqrt( area / pi )
+    }
   get area() {
     return pi * ( this.radius * this.radius )
   }
 
-  set area( area ) {
-    this.radius = Math.sqrt( area / pi )
-  }
+  
 }
